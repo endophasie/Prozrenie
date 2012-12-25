@@ -1,0 +1,699 @@
+@font-face {
+  font-family: 'pf_agora_sans_probold';
+  src: url("../fonts/pfagorasanspro-bold_0-webfont.eot");
+  src: url("../fonts/pfagorasanspro-bold_0-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfagorasanspro-bold_0-webfont.woff") format("woff"), url("../fonts/pfagorasanspro-bold_0-webfont.ttf") format("truetype"), url("../fonts/pfagorasanspro-bold_0-webfont.svg#pf_agora_sans_probold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_agora_sans_probold_italic';
+  src: url("../fonts/pfagorasanspro-bolditalic_0-webfont.eot");
+  src: url("../fonts/pfagorasanspro-bolditalic_0-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfagorasanspro-bolditalic_0-webfont.woff") format("woff"), url("../fonts/pfagorasanspro-bolditalic_0-webfont.ttf") format("truetype"), url("../fonts/pfagorasanspro-bolditalic_0-webfont.svg#pf_agora_sans_probold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_agora_sans_pro_mediumRg';
+  src: url("../fonts/pfagorasanspro-medium_0-webfont.eot");
+  src: url("../fonts/pfagorasanspro-medium_0-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfagorasanspro-medium_0-webfont.woff") format("woff"), url("../fonts/pfagorasanspro-medium_0-webfont.ttf") format("truetype"), url("../fonts/pfagorasanspro-medium_0-webfont.svg#pf_agora_sans_pro_mediumRg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_agora_sans_pro_mediumIt';
+  src: url("../fonts/pfagorasanspro-mediumital_0-webfont.eot");
+  src: url("../fonts/pfagorasanspro-mediumital_0-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfagorasanspro-mediumital_0-webfont.woff") format("woff"), url("../fonts/pfagorasanspro-mediumital_0-webfont.ttf") format("truetype"), url("../fonts/pfagorasanspro-mediumital_0-webfont.svg#pf_agora_sans_pro_mediumIt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_agora_sans_proregular';
+  src: url("../fonts/pfagorasanspro-reg_0-webfont.eot");
+  src: url("../fonts/pfagorasanspro-reg_0-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfagorasanspro-reg_0-webfont.woff") format("woff"), url("../fonts/pfagorasanspro-reg_0-webfont.ttf") format("truetype"), url("../fonts/pfagorasanspro-reg_0-webfont.svg#pf_agora_sans_proregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_square_sans_probold';
+  src: url("../fonts/pfsquaresanspro-bold-webfont.eot");
+  src: url("../fonts/pfsquaresanspro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfsquaresanspro-bold-webfont.woff") format("woff"), url("../fonts/pfsquaresanspro-bold-webfont.ttf") format("truetype"), url("../fonts/pfsquaresanspro-bold-webfont.svg#pf_square_sans_probold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_square_sans_proregular';
+  src: url("../fonts/pfsquaresanspro-regular-webfont.eot");
+  src: url("../fonts/pfsquaresanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfsquaresanspro-regular-webfont.woff") format("woff"), url("../fonts/pfsquaresanspro-regular-webfont.ttf") format("truetype"), url("../fonts/pfsquaresanspro-regular-webfont.svg#pf_square_sans_proregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_square_sans_pro_mediumRg';
+  src: url("../fonts/pfsquaresanspro-medium-webfont.eot");
+  src: url("../fonts/pfsquaresanspro-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfsquaresanspro-medium-webfont.woff") format("woff"), url("../fonts/pfsquaresanspro-medium-webfont.ttf") format("truetype"), url("../fonts/pfsquaresanspro-medium-webfont.svg#pf_square_sans_pro_mediumRg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_square_sans_pro_mediumIt';
+  src: url("../fonts/pfsquaresanspro-meditalic-webfont.eot");
+  src: url("../fonts/pfsquaresanspro-meditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfsquaresanspro-meditalic-webfont.woff") format("woff"), url("../fonts/pfsquaresanspro-meditalic-webfont.ttf") format("truetype"), url("../fonts/pfsquaresanspro-meditalic-webfont.svg#pf_square_sans_pro_mediumIt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 135, C:/Dropbox/Project/Freelance/sass/screen.scss */
+ul, ol, li {
+  list-style: none;
+}
+
+/* line 138, C:/Dropbox/Project/Freelance/sass/screen.scss */
+a:hover {
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 203, C:/Dropbox/Project/Freelance/sass/screen.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+/* line 210, C:/Dropbox/Project/Freelance/sass/screen.scss */
+body {
+  width: 100%;
+  height: 100%;
+  color: #2a2829;
+  font: normal 12px/18px Tahoma, Arial, sans-serif;
+}
+
+/* line 217, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header {
+  width: 100%;
+  height: 90px;
+  background: url(../img/bg/cell-blue.gif) 0 0 repeat;
+}
+/* line 156, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .logo {
+  float: left;
+}
+/* line 219, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap {
+  margin: 0 auto;
+  width: 980px;
+}
+/* line 144, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 221, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .logo {
+  margin: 22px 0 0;
+}
+/* line 224, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions {
+  width: auto;
+  font-size: 0;
+  float: right;
+  margin: 40px 0 0;
+}
+/* line 165, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+}
+/* line 228, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li {
+  margin-left: 20px;
+}
+/* line 231, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li:first-child a {
+  color: #32393d;
+}
+/* line 234, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.counter {
+  background-color: #3d3d3d;
+  border-radius: 18px;
+  height: 33px;
+}
+/* line 238, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.counter form {
+  float: left;
+  margin: -5px 10px 0 15px;
+  border-radius: 22px;
+  background-color: #dc2a2a;
+  height: 43px;
+}
+/* line 244, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.counter form .arr-count {
+  width: auto;
+  font-size: 0;
+  margin: 5px 5px 0 8px;
+}
+/* line 165, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.counter form .arr-count li {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+}
+/* line 247, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.counter form .arr-count li {
+  margin: 0 2px;
+}
+/* line 249, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.counter form .arr-count li a {
+  color: #e98989;
+  text-decoration: none;
+}
+/* line 253, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.counter form .arr-count li input {
+  font: normal 22px Tahoma, Arial, sans-serif;
+  color: #feffff;
+  background-color: #dc2a2a;
+  width: 15px;
+}
+/* line 262, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.counter > a {
+  color: #feffff;
+  float: left;
+  margin: 5px 12px 0 0;
+  text-decoration: none;
+}
+/* line 269, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.ask-me {
+  border-radius: 18px;
+  height: 33px;
+  background-color: #2889f1;
+}
+/* line 273, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.ask-me a {
+  text-decoration: none;
+  color: #feffff;
+  padding: 2px 22px 0 10px;
+  display: block;
+  height: 100%;
+}
+/* line 280, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.ask-me a:hover span {
+  border-bottom: none;
+}
+/* line 284, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.ask-me a img {
+  float: left;
+}
+/* line 287, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.header .wrap .actions li.ask-me a span {
+  border-bottom: 1px solid;
+  padding-bottom: 1px;
+  float: right;
+  margin: 3px 0 0 12px;
+}
+
+/* line 299, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner {
+  width: 100%;
+  background: #697a88;
+  overflow: hidden;
+}
+/* line 303, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner .wrap {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+  height: 401px;
+}
+/* line 144, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 307, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner .wrap h2 {
+  position: relative;
+}
+/* line 309, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner .wrap h2 .txt-biggest {
+  font-family: 'pf_square_sans_probold', sans-serif;
+  font-size: 120px;
+  color: #1b7ce5;
+  text-shadow: 2px 1px 0 #f2f3f5;
+  position: absolute;
+  bottom: 255px;
+  left: 40px;
+}
+/* line 320, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner .wrap h2 .txt-medium {
+  font-family: 'pf_square_sans_pro_mediumRg', sans-serif;
+  font-size: 90px;
+  color: #2b3135;
+  text-shadow: 2px 1px 0 #f6f7f9;
+  position: absolute;
+  bottom: 100px;
+  left: 145px;
+}
+/* line 331, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner .wrap h2 .txt-smallest {
+  font-family: 'pf_square_sans_pro_mediumRg', sans-serif;
+  font-size: 50px;
+  color: #2b3135;
+  text-shadow: 1px 1px #f6f7f9;
+  position: absolute;
+  bottom: 165px;
+  left: -10px;
+}
+
+/* line 345, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner-text {
+  width: 100%;
+  background: url(../img/bg/noise-dark.png) 0 0 repeat;
+  box-shadow: 0 4px 7px 2px #9A9A9A;
+  position: relative;
+  z-index: 2;
+}
+/* line 351, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner-text .wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+/* line 144, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner-text .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 353, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner-text .wrap ul {
+  width: auto;
+  font-size: 0;
+  height: 130px;
+}
+/* line 165, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner-text .wrap ul li {
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+}
+/* line 356, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner-text .wrap ul li {
+  width: 368px;
+  margin: 30px 0 0 0;
+  color: #fff;
+  vertical-align: top;
+  text-align: justify;
+}
+/* line 363, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner-text .wrap ul li.img-item {
+  width: 194px;
+  margin: 0 35px 0 0;
+  padding: 0;
+  position: relative;
+  bottom: 25%;
+}
+/* line 370, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-banner-text .wrap ul li.col-1 {
+  width: 316px;
+  margin-right: 30px;
+}
+
+/* line 378, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-illness {
+  width: 100%;
+  background: #e0e0e0 url(../img/elem/border-line.png) 0 bottom repeat-x;
+}
+/* line 381, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-illness .wrap {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 70px 0 30px;
+  overflow: hidden;
+}
+/* line 144, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-illness .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 385, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-illness .wrap .b-dotted {
+  border: 4px dotted #a7a6a6;
+  float: left;
+  border-radius: 12px;
+  padding: 18px 15px 20px 19px;
+  margin-right: 13px;
+  text-shadow: 1px 1px 0 #fff;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 20px;
+  width: 220px;
+}
+/* line 399, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-illness .wrap .b-dotted h5 {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+}
+/* line 408, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-illness .wrap .carousel {
+  float: left;
+}
+
+/* line 414, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods {
+  width: 100%;
+  background: url(../img/bg/cell-dark.png) 0 0 repeat;
+  overflow: hidden;
+}
+/* line 418, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .wrap {
+  margin: 0 auto;
+  width: 980px;
+}
+/* line 144, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 420, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .wrap .m-img {
+  float: left;
+  margin: 20px 0 0 -10%;
+}
+/* line 424, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .wrap .methods {
+  float: left;
+  width: 67%;
+}
+/* line 427, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .wrap .methods .m-txt {
+  color: #fff;
+}
+/* line 429, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .wrap .methods .m-txt h3 {
+  font-family: 'pf_agora_sans_pro_mediumIt', sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  margin-bottom: 12px;
+  text-shadow: 0 1px 1px #000;
+}
+/* line 439, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .wrap .methods .item-1 {
+  margin: 60px 0 0 -90px;
+}
+/* line 440, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .wrap .methods .item-2 {
+  margin: 50px 0 0 20px;
+}
+/* line 441, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .wrap .methods .item-3 {
+  margin: 70px 0 0 -90px;
+}
+/* line 444, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.other-methods .border {
+  display: block;
+  height: 40px;
+  position: relative;
+  left: 25%;
+  z-index: 1;
+}
+
+/* line 453, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad {
+  width: 100%;
+  background: url(../img/bg/canvas-grey.jpg) 0 0 repeat;
+}
+/* line 456, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+/* line 144, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 144, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .arg:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 460, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .arg h2 {
+  padding: 15px 42px 0 0;
+  margin: 10px 40px 0 0;
+  background: url(../img/elem/arr-grey.png) right 0 no-repeat;
+  float: left;
+  width: 495px;
+  text-shadow: 2px 1px 0 #fff;
+  line-height: 64px;
+}
+/* line 468, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .arg h2 .txt-biggest {
+  font-family: 'pf_square_sans_pro_mediumIt', sans-serif;
+  font-size: 95px;
+  color: #3b3b3b;
+}
+/* line 475, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .arg h2 .txt-medium {
+  font-family: 'pf_square_sans_proregular', sans-serif;
+  font-size: 64px;
+  float: right;
+  color: #2889f1;
+}
+/* line 483, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .arg h2 .txt-mediumIt {
+  font-family: 'pf_square_sans_pro_mediumIt', sans-serif;
+  font-size: 70px;
+  color: #3b3b3b;
+}
+/* line 490, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .arg h2 .txt-smallest {
+  font-family: 'pf_square_sans_proregular', sans-serif;
+  font-size: 50px;
+  color: #2889f1;
+}
+/* line 498, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .arg ul {
+  float: left;
+  width: 42%;
+  margin-bottom: 30px;
+}
+/* line 179, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .arg ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  list-style-image: url("../img/elem/bull-blue.png");
+}
+/* line 505, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .promo-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 80px;
+  position: relative;
+  width: 930px;
+  margin: 0 auto;
+  border-top: 1px dashed #949697;
+  border-bottom: 1px dashed #fff;
+  margin-bottom: 40px;
+}
+/* line 514, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .promo-line:before {
+  content: url(../img/elem/title-arr-l.png);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -11px;
+}
+/* line 521, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .promo-line:after {
+  content: url(../img/elem/title-arr-r.png);
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -11px;
+}
+/* line 528, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .promo-line h3 {
+  text-align: center;
+  line-height: 30px;
+  padding-top: 8px;
+  border-bottom: 1px dashed #949697;
+  border-top: 1px dashed #fff;
+  height: 70px;
+  width: 99.9%;
+  font-family: 'pf_agora_sans_pro_mediumIt', sans-serif;
+  font-size: 22px;
+}
+/* line 540, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .promo-line h3 span {
+  font-family: 'pf_agora_sans_probold_italic', sans-serif;
+}
+/* line 543, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .promo-line h3 span.colored {
+  color: #2889f1;
+  font-size: 24px;
+  font-family: 'pf_agora_sans_pro_mediumIt';
+}
+/* line 550, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .qualities {
+  width: auto;
+  font-size: 0;
+  margin: 0 auto;
+}
+/* line 165, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .qualities li {
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: middle;
+}
+/* line 553, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .qualities li {
+  width: 25%;
+  margin-bottom: 25px;
+}
+/* line 556, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .qualities li .safe {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url(../img/sprite.png) 0 0 no-repeat;
+  vertical-align: top;
+}
+/* line 557, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .qualities li .stuff {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url(../img/sprite.png) 0 -63px no-repeat;
+  vertical-align: top;
+}
+/* line 558, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .qualities li .inj {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url(../img/sprite.png) 0 -126px no-repeat;
+  vertical-align: top;
+}
+/* line 559, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .qualities li .done {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url(../img/sprite.png) 0 -189px no-repeat;
+  vertical-align: top;
+}
+/* line 561, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.b-ad .wrap .qualities li .txt {
+  font-family: 'pf_agora_sans_pro_mediumRg', sans-serif;
+  display: inline-block;
+  width: 60%;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+/* line 574, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer {
+  width: 100%;
+  height: 90px;
+  background: url(../img/bg/cell-blue.gif) 0 0 repeat;
+}
+/* line 156, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .logo {
+  float: left;
+}
+/* line 576, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap {
+  margin: 0 auto;
+  width: 940px;
+}
+/* line 144, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 578, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .logo {
+  margin: 17px 40px 0 0;
+}
+/* line 581, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright {
+  float: left;
+  color: #383637;
+  margin-top: 20px;
+}
+/* line 585, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright p {
+  margin-bottom: 5px;
+}
+/* line 588, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts {
+  width: auto;
+  font-size: 0;
+}
+/* line 165, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li {
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+}
+/* line 590, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li {
+  margin-right: 17px;
+}
+/* line 592, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li:first-child {
+  margin-right: 10px;
+}
+/* line 595, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li a {
+  text-decoration: none;
+}
+/* line 598, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li a:hover .txt {
+  text-decoration: none;
+}
+/* line 602, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li a .txt {
+  color: #2893cd;
+  text-decoration: underline;
+}
+/* line 607, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li .icon {
+  background: url(../img/sprite.png) 0 0 no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+/* line 615, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li .mail {
+  background-position: -156px -168px;
+}
+/* line 618, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li .icq {
+  background-position: -156px -187px;
+}
+/* line 621, C:/Dropbox/Project/Freelance/sass/screen.scss */
+.footer .wrap .copyright .contacts li .skype {
+  background-position: -156px -208px;
+}
