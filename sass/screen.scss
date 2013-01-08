@@ -1063,7 +1063,7 @@ body {
 } // feedback
 
 .promo-block {
-  @include b-content(750px);
+  @include b-content(762px);
   
   background: #000 url(../img/promo/banner3.jpg) 0 0 no-repeat;
   -webkit-background-size: cover;
@@ -1080,7 +1080,7 @@ body {
     }
     line-height: 24px;
     margin-bottom: 40px;
-    padding-top: 35px;
+    padding-top: 30px;
   }
   h4 {
     font-family: 'pf_agora_sans_proitalic';
@@ -1209,11 +1209,12 @@ body {
         }
         .txt {
           float: left;
+          width: 72%;
           color: #fff;
           font-family: $agora_reg, sans-serif;
           @include clearfix;
           h4 {
-            font-size: 24px;
+            font-size: 23px;
             margin-bottom: 20px;
           }
           .quote {
