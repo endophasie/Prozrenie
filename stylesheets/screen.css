@@ -118,7 +118,7 @@
   font-style: normal;
 }
 
-/* line 217, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 173, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 * {
   margin: 0;
   padding: 0;
@@ -126,17 +126,17 @@
   outline: 0;
 }
 
-/* line 224, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 180, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 ul, ol, li {
   list-style: none;
 }
 
-/* line 227, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 183, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 356, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 316, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 body {
   width: 100%;
   height: 100%;
@@ -144,56 +144,57 @@ body {
   font: normal 12px/18px Tahoma, Arial, sans-serif;
 }
 
-/* line 363, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 323, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header {
   width: 100%;
   height: 90px;
   background: url(../img/bg/cell-blue.gif) 0 0 repeat;
+  width: 100%;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .wrap {
   margin: 0 auto;
   width: 980px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 257, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 215, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .logo {
   float: left;
   margin: 22px 0 0 0;
 }
-/* line 365, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 325, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions {
   width: auto;
   font-size: 0;
   float: right;
   margin: 40px 0 0;
 }
-/* line 267, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 225, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li {
   display: inline-block;
   font-size: 18px;
   vertical-align: middle;
 }
-/* line 369, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 329, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li {
   margin-left: 20px;
 }
-/* line 372, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 332, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li:first-child a {
   color: #32393d;
 }
-/* line 375, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 335, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.counter {
   background-color: #3d3d3d;
   border-radius: 18px;
   height: 33px;
 }
-/* line 379, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 339, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.counter form {
   float: left;
   margin: -5px 10px 0 15px;
@@ -201,48 +202,48 @@ body {
   background-color: #dc2a2a;
   height: 43px;
 }
-/* line 385, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 345, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.counter form .arr-count {
   width: auto;
   font-size: 0;
   margin: 5px 5px 0 8px;
 }
-/* line 267, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 225, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.counter form .arr-count li {
   display: inline-block;
   font-size: 18px;
   vertical-align: middle;
 }
-/* line 388, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 348, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.counter form .arr-count li {
   margin: 0 2px;
 }
-/* line 390, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 350, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.counter form .arr-count li a {
   color: #e98989;
   text-decoration: none;
 }
-/* line 394, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 354, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.counter form .arr-count li input {
   font: normal 22px Tahoma, Arial, sans-serif;
   color: #feffff;
   background-color: #dc2a2a;
   width: 15px;
 }
-/* line 403, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 363, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.counter > a {
   color: #feffff;
   float: left;
   margin: 5px 12px 0 0;
   text-decoration: none;
 }
-/* line 410, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 370, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.ask-me {
   border-radius: 18px;
   height: 33px;
   background-color: #2889f1;
 }
-/* line 414, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 374, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.ask-me a {
   text-decoration: none;
   color: #feffff;
@@ -250,15 +251,15 @@ body {
   display: block;
   height: 100%;
 }
-/* line 421, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 381, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.ask-me a:hover span {
   border-bottom: none;
 }
-/* line 425, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 385, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.ask-me a img {
   float: left;
 }
-/* line 428, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 388, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .header .actions li.ask-me a span {
   border-bottom: 1px solid;
   padding-bottom: 1px;
@@ -266,33 +267,33 @@ body {
   margin: 3px 0 0 12px;
 }
 
-/* line 439, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 399, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner {
-  width: 100%;
   background: #697a88;
   overflow: hidden;
+  width: 100%;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner .wrap {
   margin: 0 auto;
   width: 980px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 444, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 403, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner .wrap {
   position: relative;
   height: 401px;
 }
-/* line 447, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 406, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner .wrap h2 {
   position: relative;
 }
-/* line 449, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 408, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner .wrap h2 .txt-biggest {
   font-family: 'pf_square_sans_probold', sans-serif;
   font-size: 120px;
@@ -302,7 +303,7 @@ body {
   bottom: 255px;
   left: 40px;
 }
-/* line 460, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 419, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner .wrap h2 .txt-medium {
   font-family: 'pf_square_sans_pro_mediumRg', sans-serif;
   font-size: 90px;
@@ -312,7 +313,7 @@ body {
   bottom: 100px;
   left: 145px;
 }
-/* line 471, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 430, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner .wrap h2 .txt-smallest {
   font-family: 'pf_square_sans_pro_mediumRg', sans-serif;
   font-size: 50px;
@@ -323,38 +324,38 @@ body {
   left: -10px;
 }
 
-/* line 485, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 444, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner-text {
-  width: 100%;
   background: url(../img/bg/noise-dark.png) 0 0 repeat;
   box-shadow: 0 4px 7px 2px #9A9A9A;
   position: relative;
   z-index: 2;
+  width: 100%;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner-text .wrap {
   margin: 0 auto;
   width: 960px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner-text .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 492, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 450, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner-text ul {
   width: auto;
   font-size: 0;
   height: 130px;
 }
-/* line 267, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 225, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner-text ul li {
   display: inline-block;
   font-size: 12px;
   vertical-align: middle;
 }
-/* line 495, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 453, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner-text ul li {
   width: 368px;
   margin: 30px 0 0 0;
@@ -362,7 +363,7 @@ body {
   vertical-align: top;
   text-align: justify;
 }
-/* line 502, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 460, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner-text ul li.img-item {
   width: 194px;
   margin: 0 35px 0 0;
@@ -370,34 +371,34 @@ body {
   position: relative;
   bottom: 25%;
 }
-/* line 509, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 467, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-banner-text ul li.col-1 {
   width: 316px;
   margin-right: 30px;
 }
 
-/* line 516, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 474, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-illness {
-  width: 100%;
   background: #e0e0e0 url(../img/elem/border-line.png) 0 bottom repeat-x;
+  width: 100%;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-illness .wrap {
   margin: 0 auto;
   width: 1000px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-illness .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 520, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 477, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-illness .wrap {
   padding: 70px 0 30px;
   overflow: hidden;
 }
-/* line 523, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 480, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-illness .wrap .b-dotted {
   border: 4px dotted #a7a6a6;
   border-radius: 12px;
@@ -411,50 +412,50 @@ body {
   line-height: 20px;
   width: 220px;
 }
-/* line 535, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 492, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-illness .wrap .b-dotted h5 {
   font-family: Georgia, serif;
   font-size: 14px;
   font-style: italic;
   font-weight: bold;
 }
-/* line 544, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 501, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-illness .wrap .carousel {
   float: left;
 }
 
-/* line 550, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 507, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods {
-  width: 100%;
   background: url(../img/bg/cell-dark.png) 0 0 repeat;
   overflow: hidden;
+  width: 100%;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .wrap {
   margin: 0 auto;
   width: 980px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 555, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 511, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .m-img {
   float: left;
   margin: 20px 0 0 -10%;
 }
-/* line 559, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 515, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .methods {
   float: left;
   width: 67%;
 }
-/* line 562, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 518, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .methods .m-txt {
   color: #fff;
 }
-/* line 564, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 520, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .methods .m-txt h3 {
   font-family: 'pf_agora_sans_proitalic', sans-serif;
   font-weight: normal;
@@ -462,19 +463,19 @@ body {
   margin-bottom: 12px;
   text-shadow: 0 1px 1px #000;
 }
-/* line 574, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 530, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .methods .item-1 {
   margin: 60px 0 0 -90px;
 }
-/* line 575, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 531, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .methods .item-2 {
   margin: 50px 0 0 20px;
 }
-/* line 576, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 532, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .methods .item-3 {
   margin: 70px 0 0 -90px;
 }
-/* line 578, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 534, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .other-methods .border {
   position: relative;
   z-index: 3;
@@ -483,30 +484,30 @@ body {
   height: 40px;
 }
 
-/* line 584, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 540, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad {
-  width: 100%;
   background: url(../img/bg/canvas-grey.jpg) 0 0 repeat;
   overflow: hidden;
+  width: 100%;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .wrap {
   margin: 0 auto;
   width: 1000px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .arg:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 591, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 546, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .arg h2 {
   padding: 15px 42px 0 0;
   margin: 10px 40px 0 0;
@@ -516,13 +517,13 @@ body {
   text-shadow: 1px 1px 0 #fff;
   line-height: 64px;
 }
-/* line 599, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 554, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .arg h2 .txt-biggest {
   font-family: 'pf_square_sans_pro_mediumIt', sans-serif;
   font-size: 95px;
   color: #3b3b3b;
 }
-/* line 606, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 561, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .arg h2 .txt-medium {
   font-family: 'pf_square_sans_pro_lightRg', sans-serif;
   font-size: 64px;
@@ -530,32 +531,32 @@ body {
   color: #2889f1;
   line-height: 41px;
 }
-/* line 615, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 570, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .arg h2 .txt-mediumIt {
   font-family: 'pf_square_sans_proitalic', sans-serif;
   font-size: 70px;
   color: #3b3b3b;
   line-height: 91px;
 }
-/* line 623, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 578, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .arg h2 .txt-smallest {
   font-family: 'pf_square_sans_pro_lightRg', sans-serif;
   font-size: 50px;
   color: #2889f1;
 }
-/* line 631, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 586, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .arg ul {
   float: left;
   width: 42%;
   margin-bottom: 30px;
 }
-/* line 288, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 246, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .arg ul li {
   margin-bottom: 10px;
   font-size: 14px;
   list-style-image: url("../img/elem/bull-blue.png");
 }
-/* line 638, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 593, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .promo-line {
   background-color: rgba(0, 0, 0, 0.1);
   height: 80px;
@@ -566,7 +567,7 @@ body {
   border-bottom: 1px dashed #fff;
   margin-bottom: 40px;
 }
-/* line 647, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 602, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .promo-line:before {
   content: url(../img/elem/title-arr-l.png);
   display: block;
@@ -574,7 +575,7 @@ body {
   top: 0;
   left: -11px;
 }
-/* line 654, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 609, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .promo-line:after {
   content: url(../img/elem/title-arr-r.png);
   display: block;
@@ -582,7 +583,7 @@ body {
   top: 0;
   right: -11px;
 }
-/* line 661, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 616, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .promo-line h3 {
   text-align: center;
   line-height: 30px;
@@ -594,36 +595,36 @@ body {
   font-family: 'pf_agora_sans_proitalic', sans-serif;
   font-size: 22px;
 }
-/* line 673, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 628, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .promo-line h3 span {
   font-family: 'pf_agora_sans_pro_mediumIt', sans-serif;
 }
-/* line 676, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 631, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .promo-line h3 span.colored {
   color: #2889f1;
   font-size: 24px;
   font-family: 'pf_agora_sans_proitalic';
 }
-/* line 683, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 638, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .qualities {
   width: auto;
   font-size: 0;
   margin: 0 auto;
 }
-/* line 267, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 225, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .qualities li {
   display: inline-block;
   font-size: 20px;
   vertical-align: middle;
 }
-/* line 686, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 641, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .qualities li {
   width: 25%;
   margin-bottom: 25px;
   line-height: 100%;
   height: 60px;
 }
-/* line 691, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 646, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .qualities li .safe {
   display: inline-block;
   width: 60px;
@@ -631,7 +632,7 @@ body {
   background: url(../img/sprite.png) 0 0 no-repeat;
   vertical-align: -100%;
 }
-/* line 695, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 650, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .qualities li .stuff {
   display: inline-block;
   width: 60px;
@@ -639,7 +640,7 @@ body {
   background: url(../img/sprite.png) 0 -63px no-repeat;
   vertical-align: -7%;
 }
-/* line 699, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 654, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .qualities li .inj {
   display: inline-block;
   width: 60px;
@@ -647,7 +648,7 @@ body {
   background: url(../img/sprite.png) 0 -126px no-repeat;
   vertical-align: -100%;
 }
-/* line 703, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 658, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .qualities li .done {
   display: inline-block;
   width: 60px;
@@ -655,7 +656,7 @@ body {
   background: url(../img/sprite.png) 0 -189px no-repeat;
   vertical-align: -45%;
 }
-/* line 708, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 663, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .qualities li .txt {
   font-family: 'pf_agora_sans_pro_mediumRg', sans-serif;
   display: inline-block;
@@ -663,7 +664,7 @@ body {
   margin-left: 15px;
   vertical-align: 10%;
 }
-/* line 717, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 672, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .border {
   position: relative;
   z-index: 3;
@@ -673,41 +674,41 @@ body {
   float: left;
   margin-top: -40px;
 }
-/* line 721, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 676, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad .border img {
   float: left;
   position: relative;
   left: -50%;
 }
 
-/* line 730, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 685, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method {
-  width: 100%;
   background-color: #dcdcdc;
   padding-bottom: 70px;
+  width: 100%;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .wrap {
   margin: 0 auto;
   width: 990px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 735, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 689, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .banner {
   overflow: hidden;
   padding-top: 10px;
 }
-/* line 738, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 692, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .banner .img {
   float: left;
   margin: 25px 30px 0 0;
 }
-/* line 742, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 696, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .banner .disk {
   border: 6px solid #fff;
   background: #d0cece url(../img/bg/cell-gradient.jpg) 0 bottom repeat-x;
@@ -718,18 +719,18 @@ body {
   height: 180px;
   width: 620px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .banner .disk:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 752, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 706, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .banner .disk img {
   float: left;
   margin: -60px 15px 0 0;
 }
-/* line 756, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 710, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .banner .disk .txt {
   float: left;
   width: 385px;
@@ -739,14 +740,14 @@ body {
   font-family: 'pf_agora_sans_pro_mediumRg', sans-serif;
   font-size: 20px;
 }
-/* line 766, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 720, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .banner .disk .txt .colored {
   font-family: 'pf_agora_sans_probold', sans-serif;
   font-size: 30px;
   color: #2889f1;
   display: block;
 }
-/* line 777, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 731, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .border {
   border-bottom: 1px dashed #939697;
   height: 3px;
@@ -754,7 +755,7 @@ body {
   margin: 25px auto 10px;
   width: 930px;
 }
-/* line 783, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 737, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .border span {
   border-bottom: 1px dashed #FFFFFF;
   display: inline-block;
@@ -763,69 +764,71 @@ body {
   margin: 0 auto;
   width: 99.9%;
 }
-/* line 792, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 746, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .b-licence {
   overflow: hidden;
+  margin-bottom: -40px;
 }
-/* line 794, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 749, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .b-licence .img {
   float: left;
   margin-right: 30px;
 }
-/* line 798, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 753, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .b-licence .txt {
   float: right;
   width: 490px;
   margin-top: 30px;
 }
-/* line 802, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 757, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .b-licence .txt ul {
   margin-bottom: 30px;
 }
-/* line 288, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 246, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .b-licence .txt ul li {
   margin-bottom: 10px;
   font-size: 14px;
   list-style-image: url("../img/elem/bull-blue.png");
 }
-/* line 805, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 760, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .b-licence .txt ul li {
   font-family: Georgia, serif;
   font-size: 16px;
   font-style: italic;
-  text-shadow: 1px 1px 1px #fff;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
   line-height: 18px;
   margin-bottom: 15px;
 }
-/* line 816, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 771, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .b-ad-method .b-licence .txt .ad-txt {
   font-size: 14px;
   line-height: 22px;
 }
 
-/* line 824, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 779, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works {
   width: 100%;
   background: url("../img/bg/eye-dark.png") 0 0 repeat;
   padding-bottom: 44px;
+  width: 100%;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .wrap {
   margin: 0 auto;
   width: 980px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 306, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 278, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .big-bg-title {
   background: url("../img/bg/big-title-blue.png") 0 0 no-repeat;
   width: 550px;
   height: 87px;
-  margin: 0 auto;
+  margin: 0 auto -25px;
   text-align: center;
   line-height: 87px;
   position: relative;
@@ -835,27 +838,26 @@ body {
   color: #fff;
   text-shadow: -1px -1px #2571cc;
 }
-/* line 324, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 254, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .content {
   overflow: hidden;
-  margin-top: -24px;
 }
-/* line 327, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 256, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .content .col-l {
   float: left;
   width: 695px;
   margin-right: 15px;
 }
-/* line 332, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 261, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .content .col-r {
   float: right;
   width: 240px;
 }
-/* line 827, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 782, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .content {
   color: #fff;
 }
-/* line 830, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 785, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .content h3 {
   font-size: 31px;
   line-height: 22px;
@@ -863,15 +865,15 @@ body {
   margin-bottom: 35px;
   font-family: "pf_agora_sans_proregular", sans-serif;
 }
-/* line 838, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 793, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .content .txt {
   font-size: 14px;
 }
-/* line 840, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 795, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .content .txt p {
   margin-bottom: 15px;
 }
-/* line 845, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 800, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .content .bubble {
   padding: 20px 5px 25px 25px;
   background-color: #2388ef;
@@ -882,7 +884,7 @@ body {
   line-height: 26px;
   text-shadow: -1px -1px #1377dd;
 }
-/* line 856, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 811, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .how-it-works .content .bubble:after {
   content: url(../img/elem/corner-bott.png);
   width: 54px;
@@ -894,29 +896,33 @@ body {
   z-index: 2;
 }
 
-/* line 870, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 825, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information {
   width: 100%;
   background: url("../img/bg/eye-light.png") 0 0 repeat;
   padding-bottom: 44px;
+  width: 100%;
+  -webkit-box-shadow: hoff voff radius color;
+  -moz-box-shadow: hoff voff radius color;
+  box-shadow: hoff voff radius color;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .wrap {
   margin: 0 auto;
   width: 980px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 306, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 278, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .big-bg-title {
   background: url("../img/bg/big-title-red.png") 0 0 no-repeat;
   width: 550px;
   height: 87px;
-  margin: 0 auto;
+  margin: 0 auto -25px;
   text-align: center;
   line-height: 87px;
   position: relative;
@@ -926,30 +932,29 @@ body {
   color: #fff;
   text-shadow: -1px -1px #b11829;
 }
-/* line 324, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 254, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .content {
   overflow: hidden;
-  margin-top: -24px;
 }
-/* line 327, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 256, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .content .col-l {
   float: left;
   width: 355px;
   margin-right: 35px;
 }
-/* line 332, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 261, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .content .col-r {
   float: right;
   width: 540px;
 }
-/* line 873, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 831, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information h3 span {
   display: inline-block;
   line-height: 24px;
   vertical-align: middle;
   width: 385px;
 }
-/* line 880, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 838, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information h4 {
   font-size: 24px;
   font-family: "pf_agora_sans_proregular", sans-serif;
@@ -957,17 +962,17 @@ body {
   margin-bottom: 20px;
   width: 99%;
 }
-/* line 889, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 847, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .b-dotted {
   border: 4px dotted #a7a6a6;
   border-radius: 12px;
   padding: 18px 15px 20px 19px;
 }
-/* line 892, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 850, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .b-dotted ul > li {
   margin-bottom: 10px;
 }
-/* line 894, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 852, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .b-dotted ul > li .txt {
   font-family: Georgia, serif;
   font-size: 16px;
@@ -978,7 +983,7 @@ body {
   vertical-align: middle;
   width: 59%;
 }
-/* line 906, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 864, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .b-dotted ul > li .steps {
   display: inline-block;
   width: 72px;
@@ -986,7 +991,7 @@ body {
   background: url(../img/sprite.png) -72px 0 no-repeat;
   vertical-align: middle;
 }
-/* line 910, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 868, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information .b-dotted ul > li .video {
   display: inline-block;
   width: 72px;
@@ -994,98 +999,716 @@ body {
   background: url(../img/sprite.png) -72px -77px no-repeat;
   vertical-align: middle;
 }
-/* line 914, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
-.information .b-dotted ul > li .excersize {
+/* line 872, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.information .b-dotted ul > li .exercise {
   display: inline-block;
   width: 72px;
   height: 72px;
   background: url(../img/sprite.png) -72px -154px no-repeat;
   vertical-align: middle;
 }
-/* line 920, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 878, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information div.txt {
   margin-top: 22px;
 }
-/* line 922, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 880, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information div.txt h4 {
   margin-bottom: 38px;
 }
-/* line 925, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 883, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information div.txt ul {
   margin-left: 30px;
 }
-/* line 288, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 246, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .information div.txt ul li {
   margin-bottom: 10px;
   font-size: 14px;
   list-style-image: url("../img/elem/bull-red.png");
 }
+/* line 886, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.information div.txt ul li {
+  margin-bottom: 12px;
+}
 
-/* line 933, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 893, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.info-carousel {
+  width: 100%;
+  position: relative;
+}
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.info-carousel .wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.info-carousel .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 896, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.info-carousel > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 903, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback {
+  width: 100%;
+  background: url(../img/bg/noise-light.png) 0 0 repeat;
+  padding-bottom: 10px;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 20px;
+  color: #383637;
+}
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 907, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .border {
+  display: block;
+  height: 14px;
+  width: 100%;
+  background: url(../img/elem/border-noise-light.png) 0 0 repeat-x;
+  position: relative;
+  top: -14px;
+  z-index: 2;
+}
+/* line 917, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .title-ribbon {
+  width: 899px;
+  height: 77px;
+  margin: 0 auto -20px;
+  background: url(../img/elem/red-ribbon.png) 0 0 no-repeat;
+  color: #fff;
+  text-shadow: -1px -1px #b11829;
+  font-size: 24px;
+  font-family: 'pf_agora_sans_pro_mediumRg', sans-serif;
+  font-style: normal;
+  line-height: 74px;
+  text-align: center;
+  position: relative;
+  top: -45px;
+  z-index: 3;
+}
+/* line 254, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .title-ribbon .content {
+  overflow: hidden;
+}
+/* line 256, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .title-ribbon .content .col-l {
+  float: left;
+  width: 400px;
+  margin-right: 0;
+}
+/* line 261, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .title-ribbon .content .col-r {
+  float: right;
+  width: 385px;
+}
+/* line 254, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .content {
+  overflow: hidden;
+}
+/* line 256, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .content .col-l {
+  float: left;
+  width: 470px;
+  margin-right: 30px;
+}
+/* line 261, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .content .col-r {
+  float: right;
+  width: 485px;
+}
+/* line 945, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog {
+  border-top: 1px dashed #949697;
+  padding: 43px 1px 43px 0;
+  width: 460px;
+  overflow: hidden;
+}
+/* line 950, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog:first-child {
+  border-top: 0;
+  padding-top: 5px;
+}
+/* line 954, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .ans {
+  float: right;
+  width: 370px;
+  background-color: #dedede;
+  padding: 15px 15px 17px;
+  border-radius: 12px;
+  -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  margin-bottom: 8px;
+}
+/* line 966, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .ans:after {
+  content: url(../img/elem/corner-left.png);
+  width: 21px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: -21px;
+  z-index: 2;
+}
+/* line 976, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .ans dl {
+  overflow: hidden;
+}
+/* line 978, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .ans dl dt {
+  float: left;
+  font-weight: bold;
+}
+/* line 982, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .ans dl dd {
+  margin-left: 78px;
+}
+/* line 988, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .qs {
+  float: left;
+  width: 370px;
+  background-color: #4b9bec;
+  padding: 15px 15px 17px;
+  border-radius: 12px;
+  -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
+  position: relative;
+  color: #fefefe;
+}
+/* line 1000, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .qs:after {
+  content: url(../img/elem/corner-right.png);
+  width: 21px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 25px;
+  right: -21px;
+  z-index: 2;
+}
+/* line 1010, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .qs dl {
+  overflow: hidden;
+}
+/* line 1012, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .qs dl dt {
+  float: left;
+  font-weight: bold;
+}
+/* line 1016, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .dialog .qs dl dd {
+  margin-left: 78px;
+}
+/* line 1024, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .quote .person-info {
+  overflow: hidden;
+  margin-bottom: -13px;
+}
+/* line 1027, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .quote .person-info .ava {
+  float: left;
+  margin: 0 12px 0 30px;
+}
+/* line 1031, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .quote .person-info .info {
+  float: left;
+  margin-top: 10px;
+}
+/* line 1034, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .quote .person-info .info h5 {
+  color: #d01525;
+  font-size: 16px;
+}
+/* line 1038, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .quote .person-info .info p {
+  color: #464646;
+}
+/* line 1043, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .quote .quote-wrap {
+  font-size: 14px;
+  position: relative;
+  padding: 0 15px;
+}
+/* line 1048, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .quote .quote-wrap:before {
+  content: url(../img/elem/o-quote.png);
+  margin-left: -15px;
+}
+/* line 1053, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .quote .quote-wrap:after {
+  content: url(../img/elem/c-quote.png);
+  margin-left: 97%;
+}
+/* line 1057, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.feedback .quote .quote-wrap .txt {
+  padding-bottom: 5px;
+  line-height: 19px;
+}
+
+/* line 1065, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.promo-block {
+  width: 100%;
+  background: black url(../img/promo/banner3.jpg) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 200px;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+  text-align: center;
+}
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.promo-block .wrap {
+  margin: 0 auto;
+  width: 750px;
+}
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.promo-block .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 1076, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.promo-block h3 {
+  font-size: 19px;
+  font-family: "pf_agora_sans_proregular", sans-serif;
+  line-height: 24px;
+  margin-bottom: 40px;
+  padding-top: 35px;
+}
+/* line 1085, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.promo-block h4 {
+  font-family: 'pf_agora_sans_proitalic';
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* line 1092, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality {
+  width: 100%;
+  background: url(../img/bg/cell-blue.gif) 0 0 repeat;
+  padding-bottom: 5px;
+}
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .wrap {
+  margin: 0 auto;
+  width: 995px;
+}
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 1097, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .border {
+  display: block;
+  width: 100%;
+  height: 7px;
+  background: url(../img/elem/border-dashed.png) 0 bottom repeat-x;
+}
+/* line 1104, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality h3 {
+  font-size: 28px;
+  font-family: "pf_agora_sans_proregular", sans-serif;
+  line-height: 36px;
+  text-shadow: 1px 1px #fff;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 35px;
+}
+/* line 1114, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality h3 .colorer {
+  color: #4b9bec;
+  font-family: 'pf_agora_sans_pro_mediumRg', sans-serif;
+}
+/* line 1121, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality h4 {
+  color: #848484;
+  font-size: 22px;
+  font-family: "pf_agora_sans_proregular", sans-serif;
+  line-height: 36px;
+  text-shadow: 1px 1px #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 1133, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul {
+  width: auto;
+  font-size: 0;
+  margin-bottom: 10px;
+}
+/* line 225, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: middle;
+}
+/* line 1137, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul:first-child {
+  background: url(../img/elem/border-dashed.png) 0 bottom repeat-x;
+  padding-bottom: 32px;
+  margin-bottom: 20px;
+}
+/* line 1143, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li {
+  width: 25%;
+  vertical-align: top;
+}
+/* line 1147, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li h4 {
+  color: #383637;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+/* line 1153, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li .icon {
+  display: inline-block;
+  width: 133px;
+  height: 133px;
+  background: url(../img/sprite.png) -273px 0 no-repeat;
+  display: block;
+  margin: 0 auto;
+}
+/* line 1158, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li .active {
+  background-position: -273px -138px;
+}
+/* line 1161, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li .pleasure {
+  background-position: -416px 0;
+}
+/* line 1164, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li .calm {
+  background-position: -419px -138px;
+}
+/* line 1167, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li .beauty {
+  background-position: -559px 0;
+}
+/* line 1170, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li .car {
+  background-position: -562px -138px;
+}
+/* line 1173, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li .time {
+  background-position: -702px 0;
+}
+/* line 1176, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li .money {
+  background-position: -705px -138px;
+}
+/* line 1180, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.quality .list-wrap ul li .txt {
+  padding: 0 15px;
+}
+
+/* line 1187, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order {
+  width: 100%;
+  background: url(../img/bg/blique.png) 0 bottom repeat-x;
+}
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .wrap:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 1190, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .bg-wrap {
+  background: url(../img/bg/girl.jpg) 50% bottom no-repeat;
+}
+/* line 1193, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason {
+  padding: 25px 0 37px;
+  background: url(../img/elem/border-dashed.png) 0 bottom repeat-x;
+}
+/* line 1197, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red {
+  width: 820px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  background-color: #cc3f49;
+  padding: 30px 70px 15px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+/* line 1206, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red .img {
+  float: left;
+  margin-right: 20px;
+}
+/* line 1210, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red .txt {
+  float: left;
+  color: #fff;
+  font-family: "pf_agora_sans_proregular", sans-serif;
+}
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red .txt:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 1215, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red .txt h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* line 1219, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red .txt .quote {
+  color: #000;
+  font-size: 20px;
+  font-family: 'pf_agora_sans_proitalic', sans-serif;
+  line-height: 30px;
+  padding-left: 35px;
+  margin-bottom: 20px;
+}
+/* line 1227, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red .txt .quote:before {
+  content: url(../img/elem/o-quote.png);
+  margin: 0 0 -15px -35px;
+  display: block;
+}
+/* line 1233, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red .txt .quote:after {
+  content: url(../img/elem/c-quote.png);
+  margin: -17px 0 0 77%;
+  display: block;
+}
+/* line 1242, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason ul {
+  margin-bottom: 35px;
+  width: 750px;
+  float: right;
+}
+/* line 1246, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason ul li {
+  margin-bottom: 15px;
+}
+/* line 1249, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason ul li .icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url(../img/sprite.png) 0 -255px no-repeat;
+  margin-right: 17px;
+  vertical-align: top;
+}
+/* line 1254, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason ul li .num-2 {
+  background-position: -75px -255px;
+}
+/* line 1257, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason ul li .num-3 {
+  background-position: -151px -255px;
+}
+/* line 1261, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason ul li .txt {
+  display: inline-block;
+  width: 82%;
+  margin-top: 10px;
+}
+/* line 1269, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red.effect {
+  width: 635px;
+  margin: 0 auto;
+  padding: 20px 0 20px 20px;
+}
+/* line 1274, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red.effect .icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url(../img/sprite.png) -156px 0 no-repeat;
+}
+/* line 1277, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .reason .b-red.effect .txt {
+  font-size: 30px;
+  line-height: 34px;
+  width: 80%;
+}
+/* line 1285, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .formula {
+  padding: 35px 0;
+  background: url(../img/elem/border-dashed.png) 0 bottom repeat-x;
+  text-align: center;
+}
+/* line 1289, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .formula h3 {
+  color: #383637;
+  font-family: 'pf_agora_sans_proitalic', sans-serif;
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 25px;
+}
+/* line 1298, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter {
+  padding-top: 65px;
+}
+/* line 1300, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .order {
+  float: right;
+  margin: 0 9% 35px 0;
+}
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .order:after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+/* line 1304, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .order .txt {
+  text-align: right;
+  float: left;
+  margin-right: 45px;
+  font-size: 20px;
+  font-family: 'pf_agora_sans_proitalic', sans-serif;
+  line-height: 30px;
+}
+/* line 1311, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .order .txt span {
+  display: block;
+  font-family: 'pf_agora_sans_pro_mediumIt', sans-serif;
+}
+/* line 1316, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .order .button {
+  float: left;
+  width: 332px;
+}
+/* line 1319, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .order .button a {
+  display: block;
+  width: 332px;
+  height: 114px;
+  background: url(../img/elem/button.png) 0 0 no-repeat;
+}
+/* line 1328, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .attention {
+  float: right;
+  margin: 0 2% 50px 0;
+  border: 4px dotted #a7a6a6;
+  border-radius: 12px;
+  padding: 18px 15px 20px 19px;
+  padding: 30px 15px;
+  width: 530px;
+}
+/* line 1334, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .attention .img {
+  float: left;
+  margin-right: 20px;
+}
+/* line 1337, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .attention .img .icon {
+  display: inline-block;
+  width: 86px;
+  height: 76px;
+  background: url(../img/sprite.png) -156px -79px no-repeat;
+}
+/* line 1341, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.b-order .prefooter .attention .txt {
+  float: left;
+  width: 74%;
+  color: #454343;
+}
+
+/* line 1351, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer {
   width: 100%;
   height: 90px;
   background: url(../img/bg/cell-blue.gif) 0 0 repeat;
+  width: 100%;
 }
-/* line 244, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 202, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .wrap {
   margin: 0 auto;
   width: 940px;
 }
-/* line 234, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 191, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .wrap:after {
   display: block;
   clear: both;
   content: ' ';
 }
-/* line 257, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 215, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .logo {
   float: left;
   margin: 17px 40px 0 0;
 }
-/* line 935, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1353, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+.footer .shadow {
+  width: 100%;
+  height: 6px;
+  display: block;
+  background: url(../img/elem/shadow-footer.png) 0 top repeat-x;
+}
+/* line 1359, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright {
   float: left;
   color: #383637;
   margin-top: 20px;
 }
-/* line 939, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1363, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright p {
   margin-bottom: 5px;
 }
-/* line 942, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1366, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts {
   width: auto;
   font-size: 0;
 }
-/* line 267, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 225, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li {
   display: inline-block;
   font-size: 12px;
   vertical-align: middle;
 }
-/* line 944, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1368, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li {
   margin-right: 17px;
 }
-/* line 946, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1370, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li:first-child {
   margin-right: 10px;
 }
-/* line 949, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1373, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li a {
   text-decoration: none;
 }
-/* line 952, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1376, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li a:hover .txt {
   text-decoration: none;
 }
-/* line 956, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1380, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li a .txt {
   color: #2893cd;
   text-decoration: underline;
 }
-/* line 961, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1385, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li .icon {
   background: url(../img/sprite.png) 0 0 no-repeat;
   display: inline-block;
@@ -1094,15 +1717,15 @@ body {
   height: 16px;
   margin-right: 5px;
 }
-/* line 969, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1393, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li .mail {
   background-position: -156px -168px;
 }
-/* line 972, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1396, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li .icq {
   background-position: -156px -187px;
 }
-/* line 975, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
+/* line 1399, C:/Users/Albina/Documents/GitHub/Prozrenie/sass/screen.scss */
 .footer .copyright .contacts li .skype {
   background-position: -156px -208px;
 }
